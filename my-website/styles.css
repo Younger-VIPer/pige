@@ -1,0 +1,24 @@
+/* 自定义主色调 */
+:root {
+  --primary-color: #6f3c15; /* 蓝色系 */
+}
+
+.hero-section {
+  background-color: #ffffff;
+  padding: 4rem 0;
+}
+
+.hero-section h1 {
+  color: var(--primary-color);
+  font-weight: bold;
+}
+
+.card {
+  transition: transform 0.3s;
+}
+.card:hover {
+  transform: translateY(-5px); /* 悬停效果 */
+}
+.row{
+  background-color: antiquewhite;
+}
